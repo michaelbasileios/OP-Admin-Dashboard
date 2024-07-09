@@ -29,9 +29,21 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: minmax(15rem, 2fr) 5fr;
 }
 
 #sidebar {
     background-color: #3498eb;
+    color: white;
+}
+
+#logo-title-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+#logo-title-container > img {
+    width: 3rem; height: auto;
 }
