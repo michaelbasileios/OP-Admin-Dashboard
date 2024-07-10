@@ -42,10 +42,10 @@ ul {
 }
 
 #logo-title-container {
-    display: flex;
+    /* display: flex;
     gap: 0.5rem;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem; */
 }
 
 #logo-title-container > img {
@@ -55,4 +55,8 @@ ul {
 #sidebar a {
     color: inherit;
     text-decoration: none;
+}
+
+.sidebar-menu-item > img {
+    width: 1.5em; height: auto;
 }
