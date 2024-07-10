@@ -41,7 +41,7 @@ menu {
     color: white;
     display: grid;
     grid-template-columns: [logo-start] 1fr [menu-start] 3fr [sidebar-end];
-    grid-template-rows: repeat (12, 1fr);
+    grid-template-rows: repeat (14, 1fr);
 }
 
 #logo-title-container {
@@ -66,3 +66,24 @@ menu {
     width: 1.5em; height: auto;
 }
 
+#sidebar menu {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: span 2;
+}
+
+#sidebar .main-nav {
+    grid-template-rows: subgrid;
+    grid-row: 3 / span 6;
+}
+
+#sidebar .help-menu {
+    grid-template-rows: subgrid;
+    grid-row: 10 / span 3;
+}
+
+#sidebar menu li {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: span 2;
+}
