@@ -30,6 +30,10 @@ menu {
     padding-left: 0;
 }
 
+.technical-icons {
+    width: 1.5rem; height: auto;
+}
+
 #grid-container {
     height: 100vh;
     width: 100vw;
@@ -68,7 +72,6 @@ menu {
 }
 
 .sidebar-menu-item > img {
-    width: 1.5em; height: auto;
     justify-self: center;
 }
 
