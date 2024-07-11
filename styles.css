@@ -24,7 +24,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
     isolation: isolate;
 }
-/* SIDEBAR */
+
 menu, ul {
     list-style-type: none;
     padding-left: 0;
@@ -40,7 +40,7 @@ menu, ul {
     display: grid;
     grid-template-columns: minmax(15rem, 2fr) 5fr;
 }
-
+/* SIDEBAR */
 #sidebar {
     background-color: #3498eb;
     color: white;
