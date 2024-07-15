@@ -96,3 +96,11 @@ menu, ul {
     grid-template-columns: subgrid;
     grid-column: span 2;
 }
+/* HEADER */
+#main-content > header {
+    display: grid;
+    grid-template-rows: 
+                        1fr
+                        1fr;
+    grid-template-columns: 3fr 1fr;
+}
