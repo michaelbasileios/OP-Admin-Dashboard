@@ -38,7 +38,11 @@ menu, ul {
     height: 100vh;
     width: 100vw;
     display: grid;
+    grid-template-rows: minmax(12rem, 1fr)
+                        6fr;
     grid-template-columns: minmax(15rem, 2fr) 5fr;
+    grid-template-areas: 'sidebar header'
+                         'sidebar content';
 }
 /* SIDEBAR */
 #sidebar {
@@ -52,6 +56,7 @@ menu, ul {
     2fr 
     repeat(3, 1fr) 
     repeat(3, 3fr);
+    grid-area: sidebar;
 }
 
 #logo-title-container {
@@ -96,11 +101,28 @@ menu, ul {
     grid-template-columns: subgrid;
     grid-column: span 2;
 }
+/* MAIN CONTENT */
 /* HEADER */
 #main-content > header {
     display: grid;
-    grid-template-rows: 
-                        1fr
+    grid-template-rows: 1fr
                         1fr;
     grid-template-columns: 3fr 1fr;
+    grid-area: header;
+    align-items: center;
+}
+
+.searchbar-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.profile-link-image {
+    width: 3rem;
+    height: auto;
+}
+
+#greeting > img {
+    width: 5rem;
+    height: auto;
 }
