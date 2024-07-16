@@ -161,3 +161,16 @@ menu, ul {
     grid-row: 1 / 3;
     justify-self: center;
 }
+
+#post-btns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#post-btns .postbtn-item {
+    border: none;
+    border-radius: 25%;
+    background: #3498eb;
+    color: white;
+    width: 4rem;
+}
