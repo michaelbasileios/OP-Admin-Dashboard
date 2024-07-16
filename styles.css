@@ -128,6 +128,22 @@ menu, ul {
     border-radius: 2rem;
 }
 
+#account-settings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+#account-settings > button {
+    border: none;
+    background: none;
+}
+
+#account-settings > #account-settings-btn, #greeting > img {
+    background: #fccf03;
+    border-radius: 50%;
+}
+
 .profile-link-image {
     width: 3rem;
     height: auto;
