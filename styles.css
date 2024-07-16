@@ -117,6 +117,17 @@ menu, ul {
     grid-template-columns: 1fr 8fr;
 }
 
+.searchbar-container label {
+    justify-self: center;
+}
+
+#searchbar {
+    width: 40rem;
+    background-color: #d3d9de;
+    border: none;
+    border-radius: 2rem;
+}
+
 .profile-link-image {
     width: 3rem;
     height: auto;
