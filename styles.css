@@ -110,7 +110,7 @@ menu, ul {
     grid-template-columns: 3fr 1fr;
     grid-area: header;
     align-items: center;
-    box-shadow: 0 0 1em grey;
+    box-shadow: 0 1em 1em -1em grey;
     padding-bottom: 1em;
 }
 
