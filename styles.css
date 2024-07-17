@@ -184,3 +184,17 @@ menu, ul {
     width: 5em;
     height: 2em;
 }
+/* MAIN CONTENT */
+#main-content-container {
+    height: 100vh;
+    background-color: #d3d9de;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 'projects announcements'
+                         'projects trending';
+}
+
+#project-cards {
+    grid-area: projects;
+}
