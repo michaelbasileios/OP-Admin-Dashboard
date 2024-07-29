@@ -208,3 +208,9 @@ header {
     grid-column: 1 / span 2;
     align-self: center;
 }
+
+#announcement-card, #trending-card {
+    display: grid;
+    grid-template-rows: 1fr
+                        4fr;
+}
