@@ -55,7 +55,7 @@ menu, ul {
     repeat(6, 1fr) 
     2fr 
     repeat(3, 1fr) 
-    repeat(3, 3fr);
+    9fr;
     grid-area: sidebar;
 }
 
