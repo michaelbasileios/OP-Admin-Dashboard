@@ -103,8 +103,9 @@ menu, ul {
 }
 /* MAIN CONTENT */
 /* HEADER */
-#main-content > header {
+header {
     display: grid;
+    grid-area: header;
     grid-template-rows: 1fr
                         1fr;
     grid-template-columns: 3fr 1fr;
