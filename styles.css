@@ -186,7 +186,6 @@ menu, ul {
 }
 /* MAIN CONTENT */
 #main-content-container {
-    height: 100vh;
     background-color: #d3d9de;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -197,4 +196,14 @@ menu, ul {
 
 #project-cards {
     grid-area: projects;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr
+                        repeat(3, 3fr);
+    gap: 2em;
+}
+
+#project-cards > h3 {
+    grid-column: 1 / span 2;
+    align-self: center;
 }
