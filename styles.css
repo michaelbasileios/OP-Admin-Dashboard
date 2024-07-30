@@ -196,17 +196,17 @@ header {
 }
 
 #project-cards {
+    margin: 1em;
     grid-area: projects;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr
                         repeat(3, 3fr);
-    gap: 2em;
+    gap: 1em;
 }
 
 #project-cards > h3 {
     grid-column: 1 / span 2;
-    align-self: center;
 }
 
 #announcement-card, #trending-card {
@@ -218,5 +218,18 @@ header {
 .card {
     background: white;
     border-radius: 1em;
-    box-shadow: 10px 10px 24px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
+    padding: 2em;
+}
+
+#project-cards > h3,
+#announcement-card > h3, 
+#trending-card > h3 {
+    align-self: center;
+}
+
+.social-media-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
 }
