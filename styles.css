@@ -208,6 +208,14 @@ header {
     /* gap: 1em; */
 }
 
+.card {
+    background: white;
+    border-radius: 1em;
+    box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
+    padding: 2em;
+    margin: 0.5em;
+}
+
 .project-card-item {
     border-left: 0.4em solid orange;
     display: grid;
@@ -221,18 +229,16 @@ header {
     grid-column: 1 / span 2;
 }
 
+.social-media-actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+}
+
 #announcement-card, #trending-card {
     display: grid;
     grid-template-rows: 5em
                         4fr;
-}
-
-.card {
-    background: white;
-    border-radius: 1em;
-    box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
-    padding: 2em;
-    margin: 0.5em;
 }
 
 #project-cards > h3,
@@ -242,8 +248,8 @@ header {
     margin-left: 0.5em;
 }
 
-.social-media-actions {
+#announcement-card ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: end;
+    grid-template-rows: repeat(3, auto);
+    gap: 1em;
 }
