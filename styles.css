@@ -198,13 +198,14 @@ header {
 }
 
 #project-cards {
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
     grid-area: projects;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr
+    grid-template-rows: 5em
                         repeat(3, 3fr);
-    gap: 1em;
+    /* gap: 1em; */
 }
 
 .project-card-item {
@@ -216,17 +217,13 @@ header {
     align-content: space-between;
 }
 
-.project-card-item > p {
-    align-self: start;
-}
-
 #project-cards > h3 {
     grid-column: 1 / span 2;
 }
 
 #announcement-card, #trending-card {
     display: grid;
-    grid-template-rows: 1fr
+    grid-template-rows: 5em
                         4fr;
 }
 
@@ -235,12 +232,14 @@ header {
     border-radius: 1em;
     box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
     padding: 2em;
+    margin: 0.5em;
 }
 
 #project-cards > h3,
 #announcement-card > h3, 
 #trending-card > h3 {
     align-self: center;
+    margin-left: 0.5em;
 }
 
 .social-media-actions {
