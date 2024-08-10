@@ -57,6 +57,7 @@ menu, ul {
     repeat(3, 1fr) 
     9fr;
     grid-area: sidebar;
+    z-index: 2;
 }
 
 #logo-title-container {
@@ -111,8 +112,9 @@ header {
     grid-template-columns: 3fr 1fr;
     grid-area: header;
     align-items: center;
-    box-shadow: 0 1em 1em -1em grey;
+    box-shadow: 1px 1px 14px 1px grey;
     padding-bottom: 1em;
+    z-index: 1;
 }
 
 .searchbar-container {
@@ -139,7 +141,7 @@ header {
     margin-right: 2em;
 }
 
-#account-settings > button {
+#account-settings > button, .project-card-item button {
     border: none;
     background: none;
 }
@@ -207,6 +209,15 @@ header {
 
 .project-card-item {
     border-left: 0.4em solid orange;
+    display: grid;
+    grid-template-rows: 1em
+                        max-content
+                        1em;
+    align-content: space-between;
+}
+
+.project-card-item > p {
+    align-self: start;
 }
 
 #project-cards > h3 {
