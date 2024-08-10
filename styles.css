@@ -271,3 +271,8 @@ header {
     grid-template-rows: repeat(4, auto);
     align-items: center;
 }
+
+#trending-card ul img {
+    height: 3em;
+    width: auto;
+}
