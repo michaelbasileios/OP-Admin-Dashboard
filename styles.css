@@ -151,6 +151,11 @@ header {
     border-radius: 50%;
 }
 
+#account-settings-btn {
+    height: 3.5em;
+    width: auto;
+}
+
 .profile-link-image {
     width: 3rem;
     height: auto;
@@ -259,4 +264,10 @@ header {
     border-bottom: 1px solid grey;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#trending-card ul {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    align-items: center;
 }
