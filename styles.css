@@ -205,6 +205,10 @@ header {
     gap: 1em;
 }
 
+.project-card-item {
+    border-left: 0.4em solid orange;
+}
+
 #project-cards > h3 {
     grid-column: 1 / span 2;
 }
