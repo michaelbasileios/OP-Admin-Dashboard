@@ -113,7 +113,7 @@ header {
     grid-area: header;
     align-items: center;
     box-shadow: 1px 1px 14px 1px grey;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
     z-index: 1;
 }
 
@@ -138,7 +138,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 #account-settings > button, .project-card-item button {
@@ -152,7 +152,7 @@ header {
 }
 
 #account-settings-btn {
-    height: 3.5em;
+    height: 3.5rem;
     width: auto;
 }
 
@@ -175,9 +175,9 @@ header {
 }
 
 #post-btns {
-    margin-right: 2em;
+    margin-right: 2rem;
     display: grid;
-    gap: 1em;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -189,8 +189,8 @@ header {
     border-radius: 2em;
     background: #3498eb;
     color: white;
-    width: 5em;
-    height: 2em;
+    width: 5rem;
+    height: 2rem;
 }
 /* MAIN CONTENT */
 #main-content-container {
@@ -203,12 +203,12 @@ header {
 }
 
 #project-cards {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1rem;
+    margin-right: 1rem;
     grid-area: projects;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5em
+    grid-template-rows: 5rem
                         repeat(3, 3fr);
     /* gap: 1em; */
 }
@@ -217,16 +217,16 @@ header {
     background: white;
     border-radius: 1em;
     box-shadow: 10px 10px 21px -13px rgba(0,0,0,0.75);
-    padding: 2em;
-    margin: 0.5em;
+    padding: 2rem;
+    margin: 0.5rem;
 }
 
 .project-card-item {
     border-left: 0.4em solid orange;
     display: grid;
-    grid-template-rows: 1em
+    grid-template-rows: 1rem
                         max-content
-                        1em;
+                        1rem;
     align-content: space-between;
 }
 
@@ -242,7 +242,7 @@ header {
 
 #announcement-card, #trending-card {
     display: grid;
-    grid-template-rows: 5em
+    grid-template-rows: 5rem
                         4fr;
 }
 
@@ -250,7 +250,7 @@ header {
 #announcement-card > h3, 
 #trending-card > h3 {
     align-self: center;
-    margin-left: 0.5em;
+    margin-left: 0.5rem;
 }
 
 #announcement-card ul {
@@ -273,7 +273,7 @@ header {
 }
 
 #trending-card ul img {
-    height: 3em;
+    height: 3rem;
     width: auto;
     grid-row: span 2;
     background-color: #d3d9de;
@@ -282,8 +282,8 @@ header {
 
 #trending-card ul li {
     display: grid;
-    grid-template-rows: 1.5em
-                        1.5em;
+    grid-template-rows: 1.5rem
+                        1.5rem;
     grid-template-columns: 1fr 3fr;
     align-items: center;
 }
